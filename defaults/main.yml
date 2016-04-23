@@ -1,0 +1,4 @@
+---
+fedora_namespace: "use_alias"
+collections_file: collection_data.tsv
+cdm_create_collections: true
