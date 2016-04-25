@@ -2,3 +2,25 @@
 fedora_namespace: "use_alias"
 collections_file: collection_data.tsv
 cdm_create_collections: true
+
+subsites:
+    - hnoc
+    - latech
+    - loyno
+    - lsm
+    - lsu
+    - lsuhsc
+    - lsuhscs
+    - mcneese
+    - nicholls
+    - state
+    - subr
+    - tahil
+    - tulane
+    - ull
+    - ulm
+    - uno
+
+modules_dir: "{{ drupal_core_path }}/sites/all/modules"
+
+tld: ldl.lib.lsu.edu
